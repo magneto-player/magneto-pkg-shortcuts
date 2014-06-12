@@ -1,5 +1,5 @@
 
-{View} = niceplay.Views
+{View} = magneto.Views
 
 ###
 
@@ -23,7 +23,7 @@ class ShortcutsView extends View
 
   initialize: ->
     @on 'click', '.btn-shortcut-menu', ->
-      niceplay.emit('!menu:toggle')
+      magneto.emit('!menu:toggle')
 
 
 module.exports = ShortcutsView
